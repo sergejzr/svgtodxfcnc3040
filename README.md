@@ -10,3 +10,9 @@ What I try to achive is that each layer is converted into a single DFX file. Add
 The solution I have is not perfect, there seems to be issues with paper sizes, however, this does not affect the printer at the end.
 
 Additionally, the script collects all SVG drawings into a single overview PDF with paths to original files. 
+
+
+Logically there is a conversion done:
+(1) extract layers from SVG
+(2) Convert each layer SVG to DXF
+(3) Mirror each DFX (in fact mirroring occurs before conversion to DXF over a number of some strange eps-pds-eps conversion steps, it did not work othzerwise)
