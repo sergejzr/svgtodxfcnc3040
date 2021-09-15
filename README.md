@@ -15,4 +15,7 @@ Additionally, the script collects all SVG drawings into a single overview PDF wi
 Logically there is a conversion done:
 (1) extract layers from SVG
 (2) Convert each layer SVG to DXF
-(3) Mirror each DFX (in fact mirroring occurs before conversion to DXF over a number of some strange eps-pds-eps conversion steps, it did not work othzerwise)
+(3) Mirror each DFX (in fact mirroring occurs before conversion to DXF over a number of some strange eps-pds-eps conversion steps, it did not work otherwise)
+
+
+Thanks to james-bird, who wrote the script for splitting into layers: https://github.com/james-bird/layer-to-svg
